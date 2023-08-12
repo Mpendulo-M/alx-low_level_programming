@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	char CURRChar = 'A';
 	char currChar = 'a';
 	while (currChar <= 'z')
 	{
@@ -15,7 +16,6 @@ int main(void)
 		currChar++;
 	}
 
-	char CURRChar = 'A';
 	while (CURRChar <= 'Z')
 	{
 		putchar(CURRChar);
