@@ -7,16 +7,16 @@
 
 int main(void)
 {
-    char cc = 'a';
+	char cc = 'a';
 
-    while (cc <= 'z')
-    {
-        putchar(cc);
-        cc++;
-    }
+	while (cc <= 'z')
+	{
+	putchar(cc);
+	cc++;
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
 
