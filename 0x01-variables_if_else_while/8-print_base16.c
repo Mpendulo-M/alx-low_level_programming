@@ -8,16 +8,23 @@
 
 int main(void)
 {
-	char cc = 'z';
+	char cc1 = '0';
+	char cc2 = 'a';
 
-	while (cc >= 'a')
+	while (cc1 <= '9')
 	{
-		putchar(cc);
-		cc--;
+		putchar(cc1);
+		cc1++;
+	}
+
+	while (cc2 <= 'f')
+	{
+		putchar(cc2);
+		cc2++;
 	}
 
 	putchar('\n');
 
 	return (0);
-}
 
+}
