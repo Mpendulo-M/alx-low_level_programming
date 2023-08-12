@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	int n = 48;
-
-	while (n < 58)
+	char cc = 'z';
+	
+	while (cc >= 'a')
 	{
-		putchar(n);
-		n++;
+		putchar(cc);
+		cc--;
 	}
 
 	putchar('\n');
 
 	return (0);
-
 }
+
