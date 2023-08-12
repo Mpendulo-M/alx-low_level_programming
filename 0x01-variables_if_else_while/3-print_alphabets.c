@@ -10,6 +10,7 @@ int main(void)
 {
 	char CURRChar = 'A';
 	char currChar = 'a';
+
 	while (currChar <= 'z')
 	{
 		putchar(currChar);
