@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -7,18 +8,15 @@
 
 int main(void)
 {
-	char cc = 'a';
+	int i = 0;
 
-	while (cc <= 'z')
+	while (i < 10)
 	{
-		if (cc != 'e' || cc != 'q')
-		{
-			putchar(cc);
-			cc++;
-		}
+		printf("%d", i);
+		i++;
 	}
-	putchar('\n');
+	printf('\n');
 
 	return (0);
-
 }
+
