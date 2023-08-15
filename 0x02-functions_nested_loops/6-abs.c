@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _abs - computes the absolute value of an integer
- * @x: integer to be tested 
- * Return postive x is x is negtive or positive or return 0
+ * @x: integer to be tested
+ * Return: 0 if x is zero, otherwise return positive x
  *
  */
 
