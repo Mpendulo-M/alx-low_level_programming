@@ -1,10 +1,10 @@
-#include <stdio.h>
+
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  *
- * Return: Always 0 (Success)
+ * print_alphabet_x10() print the aphabet ten  times
  */
 
 void print_alphabet_x10(void)
@@ -17,17 +17,9 @@ void print_alphabet_x10(void)
 
 		while (ch <= 'z')
 		{
-			putchar(ch);
+			_putchar(ch);
 			ch++;
 		}
 		putchar('\n');
 	}
-
-}
-
-int main(void)
-{
-	print_alphabet_x10();
-
-	return (0);
 }
