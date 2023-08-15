@@ -9,11 +9,15 @@
 int print_last_digit(int x)
 {
 	int result = x % 10;
-	char charNum = result + '0';
 
+	if (result < 0)
+		result = result * -1;
+
+	char charNum = result + '0';
+	
 	_putchar(charNum);
 
-	return (0);
+	return (charNum);
 
 
 }
