@@ -3,8 +3,8 @@
 /**
  *_islower - Entry point
  *
- *Return: Always 1 (Success) 
- *@c parameter is an integer representing ascii code
+ *Return: Always 1 (Success)
+ *@c: c is an integer representing ascii code
  *_islower(int c) - determines if c is lowercase or not
  */
 int _islower(int c)
