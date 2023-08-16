@@ -21,7 +21,7 @@ void times_table(void)
 				_putchar(d + '0');
 				_putchar(n + '0');
 			}
-			else 
+			else
 			{
 				if (y != 0)
 			{
@@ -29,7 +29,7 @@ void times_table(void)
 				_putchar(32);
 				_putchar(32);
 			}
-			
+
 			_putchar(z + '0');
 			}
 	}
