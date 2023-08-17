@@ -8,8 +8,8 @@ void print_numbers(void)
 
 	while (c <= '9')
 	{
-		_putchar(ch);
-		ch++;
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 
