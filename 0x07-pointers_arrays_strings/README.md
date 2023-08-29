@@ -7,3 +7,5 @@
 3.  function that gets the length of a prefix substring
 
 4.  function that searches a string for any of a set of bytes.
+
+5. function that locates a substring
