@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints file name
+ *main - prints file name
  *@argc: number
  *@argv: array
  *Rreturn: 0 successful
