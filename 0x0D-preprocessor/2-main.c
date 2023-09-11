@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*
- * main - prints name of file
- *
+/**
+ * main - Entry point
+ *Return: 0 (successful)
  */
-void main(void)
+int main(void)
 {
 	printf("%s\n", __FILE__);
-
+	return (0);
 
 }
 
