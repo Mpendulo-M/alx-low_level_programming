@@ -2,14 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _strdup - duplicates string
  * _strlen - calculate length
- * _strcpy - copy string
  *@s: string to be checked for length
- *@dest: original string
- *@src: duplicate
- *@str: string to be duplicated
- *Return: New duplicated string otherwise NULL
+ *Return: string length
  */
 int _strlen(char *s)
 {
@@ -22,7 +17,12 @@ int _strlen(char *s)
 	}
 	return (i);
 }
-
+/**
+ *_strcpy - copy string
+ *@dest: original string
+ *@src: duplicate
+ *Return: new string
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
@@ -37,7 +37,11 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
+/**
+ *_strdup - duplicates string
+ *@str: string to be duplicated
+ *Return: duplicate
+ */
 char *_strdup(char *str)
 {
 	int len;
