@@ -5,13 +5,13 @@
 
 /**
  * struct listint_s - singly linked list
- * @data: data value
- * @link: pointer to next node
+ * @n: data value
+ * @next: pointer to next node
  * Description: node struct
  */
 typedef struct listint_s
 {
- int data;
+ int n;
  struct listint_s *next;
 } listint_t;
 
