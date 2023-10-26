@@ -1,5 +1,3 @@
-4-clear_bit.c
-
 #include "main.h"
 #include <stdlib.h>
 /**
